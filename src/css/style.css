@@ -1,0 +1,155 @@
+body {
+    background-image: linear-gradient(rgba(165, 167, 183, 0.4), rgba(165, 167, 183, 0.4)), url("../img/background-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    font-family: "Combo", sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h4, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.container {
+    width: 1600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+
+}
+
+.header-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header__link {
+    margin-left: 50px;
+}
+
+.side-bar {
+    background-image: linear-gradient(rgba(110, 25, 25, 0.9), rgba(110, 25, 25, 0.9));
+    margin-right: 30px;
+    text-align: center;
+    padding: 35px;
+    border-radius: 50px;
+}
+
+.side-bar__logo {
+    
+}
+
+.side-bar__list {
+    margin-top: 20px;
+}
+
+.side-bar__item {
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+.side-bar__text {
+    font-family: 'Pacifico', sans-serif;
+}
+
+.side-bar__link {
+
+}
+
+.side-bar__icon {
+    width: 60px;
+    height: 60px;
+}
+
+.main-box {
+    background-image: linear-gradient(rgba(165, 167, 183, 0.9), rgba(165, 167, 183, 0.9));
+    width: 70%;
+    height: 100vh;
+    border-radius: 50px;
+    padding: 35px;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-box__top-text {
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(80, 6, 6);
+    font-size: 50px;
+}
+
+.main-box__info {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.main-box__info:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.main-box__title {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+    color: brown;
+}
+
+.main-box__list {
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.main-box__item {}
+
+.main-box__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.main-box__link {
+    color: rgb(204, 87, 87);
+}
+
+.main-box__link:focus,
+.main-box__link:hover {
+    color: red;
+}
+
+

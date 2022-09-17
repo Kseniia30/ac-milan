@@ -1,0 +1,22 @@
+.colours__list {
+    display: flex;
+    justify-content: center;
+}
+
+.colours_item {
+    width: 180px;
+    text-align: center;
+}
+
+.colours_item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.colours__img {
+    
+}
+
+.colours__subscript {
+    margin-top: 15px;
+    
+}

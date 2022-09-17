@@ -1,0 +1,21 @@
+
+.honours__table {
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+.honours__img--sc {
+    position: absolute;
+    right: 230px;
+    bottom: 20px;
+}
+.honours__img--cl {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}

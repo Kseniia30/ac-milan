@@ -1,0 +1,39 @@
+.history__list {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.history__item {
+    font-size: 20px;
+}
+
+.history__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.history__link {
+    color:rgb(36, 19, 67);
+}
+
+.history__link:hover,
+.history__link:focus {
+    color:rgb(173, 24, 24);
+}
+.history__top-text {
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    color: brown;
+    margin-bottom: 15px;
+}
+
+.history__gallery {
+    display: flex;
+}
+
+.history__gallery-item {}
+
+.history__gallery-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.history__gallery-img {
+    width: 390px;
+}

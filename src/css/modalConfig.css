@@ -1,0 +1,61 @@
+.history,
+.colours,
+.honours,
+.players,
+.company {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.history.is-hidden,
+.colours.is-hidden,
+.honours.is-hidden,
+.players.is-hidden,
+.company.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.history__close-btn,
+.colours__close-btn,
+.honours__close-btn,
+.players__close-btn,
+.company__close-btn {
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.history__close-btn:focus,
+.history__close-btn:hover,
+.colours__close-btn:hover,
+.colours__close-btn:focus,
+.honours__close-btn:focus,
+.honours__close-btn:hover,
+.players__close-btn:focus,
+.players__close-btn:hover,
+.company__close-btn:hover,
+.company__close-btn:focus {
+    fill: brown;
+}
+
+.history__text,
+.colours__text,
+.honours__text,
+.players__text,
+.company__text {
+    text-align: justify;
+    margin-bottom: 30px;
+}

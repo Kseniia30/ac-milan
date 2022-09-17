@@ -1,0 +1,24 @@
+.company__flex-div {
+    display: flex;
+}
+
+.company__img-div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.company__text-div {
+
+}
+.company__text{
+    text-indent: 40px;
+}
+
+.company__img {}
+
+.company__subscribe {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(73, 3, 66);
+    margin-bottom: 15px;
+}
