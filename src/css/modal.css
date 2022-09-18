@@ -19,4 +19,5 @@
 .modal__close-icon {
     width: 25px;
     height: 25px;
+    fill: rgb(255, 2, 2);
 }
