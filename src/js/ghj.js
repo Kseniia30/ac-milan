@@ -1,24 +1,21 @@
-const nameOfCountry = document.querySelector('.name-of-country')
-console.log(nameOfCountry.textContent);
-
-function fetchFlag() {
-    fetch(`https://restcountries.com/v3.1/name/${nameOfCountry.textContent}?field=flags`)
-        .then(res => res.json())
-        .then(data => {
-            setTextContent(data)
-            console.log("i did");
-        })
-    .catch(error => console.log(error))
-}
-
-function setTextContent(data) {
-    const textContent = data.map(({ flags }) => {
-        const image = document.createElement("img")
-        image.setAttribute("width", "40")
-        image.setAttribute("height", "20")
-        image.setAttribute("src", `${flags.png}`)
-        nameOfCountry.prepend(image)
-    })
-    return textContent
-}
-fetchFlag()
+<th>
+                            <img src="./img/players/Theo_Hernandez.jpg" alt="Theo Hernandez" width="300" height="200">
+                        </th>
+                        <th>
+                            <ul class="social__list">
+                                <li>
+                                    <a href="https://www.instagram.com/theo3hernandez/" target="_blank">
+                                        <svg class="social__icon">
+                                            <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/TheoHernandez19/" target="_blank">
+                                        <svg class="social__icon">
+                                            <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </th>
