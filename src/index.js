@@ -8,7 +8,8 @@ import './css/players.css'
 import './css/company.css'
 import { refs } from "./js/refs"
 import { toggleHistory, toggleColours, toggleHonours, togglePlayers, toggleCompany } from './js/openModal'
-import {fetchFlag} from './js/fetchF'
+import { fetchFlag } from './js/fetchF'
+import {historyMenu} from "./js/history"
 
 
 refs.historyLink.addEventListener("click", toggleHistory)
