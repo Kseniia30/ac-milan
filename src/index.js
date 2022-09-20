@@ -6,9 +6,7 @@ import './css/modalConfig.css'
 import './css/honours.css'
 import './css/players.css'
 import './css/company.css'
-import { mainMenu } from "./js/mainMenu"
 import { refs } from "./js/refs"
-
 import { toggleHistory, toggleColours, toggleHonours, togglePlayers, toggleCompany } from './js/openModal'
 import { fetchFlag } from './js/fetchF'
 import {historyMenu} from "./js/history"
